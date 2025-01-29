@@ -3,7 +3,7 @@ import {checkPalindrome} from "../PalindromeCheck";
 import { useState } from "react";
 
 export const Input = () => {
-    const [input, setInput] = useState(''); 
+    const [input, setInput] = useState<string>(''); 
     const [isPalindrome, setIsPalindrome] = useState<boolean>(null);
 
   const handleCheck = () => {
