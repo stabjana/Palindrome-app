@@ -1,9 +1,28 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  background-color: rgb(253, 247, 237);
-  color: rgb(0, 0, 59);
+  background: linear-gradient(135deg, #3a86ff, #8338ec, #ff006e, #fb5607, #ffbe0b);
+  background-size: 300% 300%;
+  animation: gradientBG 10s ease infinite;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Chat GPT suggested an Animate gradient when I asked for the gradient, its nice */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
