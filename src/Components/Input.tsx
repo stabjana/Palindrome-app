@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const Input = () => {
     const [input, setInput] = useState<string>(''); 
-    const [isPalindrome, setIsPalindrome] = useState<boolean>(null);
+    const [isPalindrome, setIsPalindrome] = useState<boolean | null>(null);
 
   const handleCheck = () => {
       const result = checkPalindrome(input); // passing input value to check function
