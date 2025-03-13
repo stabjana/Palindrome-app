@@ -3,6 +3,10 @@
 This app provides a textbox where user inputs a word, a number or a phrase.
 It will be checked if its a palindrome or not and the result is shown on the page.
 
+You can visit the app here:
+
+https://main.d2xvof7ffmtsnc.amplifyapp.com/
+
 ## TASK
 
 Ta s k 1 - p a l i n d r o m e c h e c k e r a p p
